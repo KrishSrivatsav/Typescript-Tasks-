@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var fz_1 = require("./fz");
+var pulser_1 = require("./pulser");
+var myfz1 = new fz_1.fz();
+var mypulser1 = new pulser_1.pulser();
+var myfz2 = new fz_1.fz();
+var mypulser2 = new pulser_1.pulser();
+myfz1.speed(300);
+console.log('my bike will raise up to topspeed');
